@@ -32,7 +32,7 @@ const multer = require("multer");
 
 mongoose
   .connect(
-    `mongodb+srv://srm:srm@cluster0.zr4qq.mongodb.net/sportsApp?retryWrites=true&w=majority`
+    `mongodb+srv://easylabz:easylabz@cluster0.oqdykt0.mongodb.net/sportsApp?retryWrites=true&w=majority`
   )
   .then(() => {
     console.log("connected to cluster: " + "sportsApp");
